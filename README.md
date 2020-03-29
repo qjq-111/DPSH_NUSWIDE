@@ -19,4 +19,4 @@ A pytorch implementation for DPSH on NUS-WIDE dataset.
  ![image](https://github.com/La-ji/DPSH_NUSWIDE/blob/master/result/result.png)
  
 ### Thanks for:
- [jiangqy/DPSH:](https://github.com/jiangqy/DPSH-pytorch): PyTorch implementation for DPSH.
+ [jiangqy/DPSH](https://github.com/jiangqy/DPSH-pytorch): PyTorch implementation for DPSH.
