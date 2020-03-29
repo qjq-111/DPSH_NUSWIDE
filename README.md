@@ -16,4 +16,7 @@ A pytorch implementation for DPSH on NUS-WIDE dataset.
  Pretrained Alexnet.
 
 ### MAP on NUS-WIDE
- ![](https://github.com/La-ji/DPSH_NUSWIDE/raw/master/result/result.png)
+ ![image](https://github.com/La-ji/DPSH_NUSWIDE/blob/master/result/result.png)
+ 
+### Thanks for:
+ [jiangqy/DPSH:](https://github.com/jiangqy/DPSH-pytorch): PyTorch implementation for DPSH.
