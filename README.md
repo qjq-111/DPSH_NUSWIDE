@@ -15,5 +15,5 @@ A pytorch implementation for DPSH on NUS-WIDE dataset.
 ### Pre-train Model
  Pretrained Alexnet.
 
-## MAP on NUS-WIDE
- ![](https://https://https://github.com/La-ji/DPSH_NUSWIDE/tree/master/result/result.png)
+### MAP on NUS-WIDE
+ ![](https://github.com/La-ji/DPSH_NUSWIDE/raw/master/result/result.png)
