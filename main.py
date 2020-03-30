@@ -67,14 +67,7 @@ def dataprocessing(batch_size):
     test_label_path = 'nus_wide_21/query/label/label.npy'
     train_label_path = 'nus_wide_21/train/label/label.npy'
     database_label_path = 'nus_wide_21/database/label/label.npy'
-    '''
-    test_img_path = 'NUS-WIDE/test_image.txt'
-    train_img_path = 'NUS-WIDE/train_image.txt'
-    database_img_path = 'NUS-WIDE/database_image.txt'
-    test_label_path = 'NUS-WIDE/test_label.npy'
-    train_label_path = 'NUS-WIDE/train_label.npy'
-    database_label_path = 'NUS-WIDE/database_label.npy'
-    '''
+
     database_loader = DataLoader(Nus_WideDataset(database_img_path, database_label_path, transform=transformations),
                                  batch_size=batch_size, shuffle=False, num_workers=4)
     train_loader = DataLoader(Nus_WideDataset(train_img_path, train_label_path, transform=transformations),
